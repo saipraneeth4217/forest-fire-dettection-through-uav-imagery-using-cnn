@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load the pre-trained CNN model
-model = tf.keras.models.load_model(r"C:\Users\sandeep\OneDrive\Desktop\new_model\forest_fire.h5")
+model = tf.keras.models.load_model("forest_fire.h5")
 
 # Set up the Streamlit app
 st.set_page_config(page_title='Forest Fire Detection',
